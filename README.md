@@ -35,3 +35,7 @@ We couldnt figure out how to run pmd with a specific metric, but we would like s
 We have chosen all the checks above as some of the errors we got in our pmd-report and some checks for the use of general mistakes when we create a program.
 
 ### 2.
+
+- [Netbeans profiler (screenshot)](https://github.com/michael2750/Codeanalysis/blob/master/NetbeansProfilerResults.PNG)
+
+
