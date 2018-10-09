@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="da"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>TriangleProgram.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCoverage analysis of project &quot;Exercise-1StaticTestingTechniques&quot; (powered by JaCoCo from EclEmma)</a> &gt; <a href="index.source.html" class="el_package">triangleprogram</a> &gt; <span class="el_source">TriangleProgram.java</span></div><h1>TriangleProgram.java</h1><pre class="source lang-java linenums">/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package triangleprogram;
+
+import java.io.IOException;
+import java.util.InputMismatchException;
+import java.util.Scanner;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
+
+/**
+ *
+ * @author micha
+ */
+public class TriangleProgram {
+
+    /**
+     *
+     * @return
+     */
+    public double[] getArr() {
+<span class="nc" id="L27">        return arr;</span>
+    }
+
+    /**
+     *
+     * @param arr
+     */
+    public void setArr(double[] arr) {
+<span class="fc" id="L35">        this.arr = arr;</span>
+<span class="fc" id="L36">    }</span>
+
+    /**
+     *
+     * @return
+     */
+    public String getTriangle() {
+<span class="fc" id="L43">        return triangle;</span>
+    }
+
+    /**
+     *
+     * @param triangle
+     */
+    public void setTriangle(String triangle) {
+<span class="nc" id="L51">        this.triangle = triangle;</span>
+<span class="nc" id="L52">    }</span>
+
+    /**
+     *
+     * @return
+     */
+    public String getErrorMessage() {
+<span class="nc" id="L59">        return errorMessage;</span>
+    }
+
+    /**
+     *
+     * @param errorMessage
+     */
+    public void setErrorMessage(String errorMessage) {
+<span class="nc" id="L67">        this.errorMessage = errorMessage;</span>
+<span class="nc" id="L68">    }</span>
+
+    private double[] arr;
+    private String triangle;
+
+    /**
+     *
+     */
+    public boolean isRunning;
+<span class="fc" id="L77">    private static final Logger LOGGER = Logger.getLogger(TriangleProgram.class.getName());</span>
+    private final FileHandler fileHandle;
+    private final SimpleFormatter simpleFormat;
+    private String errorMessage;
+
+    /**
+     *
+     * @throws IOException
+     */
+<span class="fc" id="L86">    public TriangleProgram() throws IOException {</span>
+<span class="fc" id="L87">        fileHandle = new FileHandler();</span>
+<span class="fc" id="L88">        simpleFormat = new SimpleFormatter();</span>
+<span class="fc" id="L89">    }</span>
+
+    /**
+     * @param simpleFor
+     * @param fileHandler
+     * @param logger
+     */
+<span class="nc" id="L96">    public TriangleProgram(SimpleFormatter simpleFor, FileHandler fileHandler, Logger logger) {</span>
+<span class="nc" id="L97">        isRunning = true;</span>
+<span class="nc" id="L98">        this.fileHandle = fileHandler;</span>
+<span class="nc" id="L99">        this.simpleFormat = simpleFor;</span>
+<span class="nc" id="L100">        logger.addHandler(fileHandle);</span>
+<span class="nc" id="L101">        fileHandler.setFormatter(simpleFormat);</span>
+<span class="nc" id="L102">    }</span>
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        //Path to the log file
+<span class="nc" id="L109">        String path = TriangleProgram.class.getProtectionDomain().getCodeSource().getLocation().getPath().substring(1);</span>
+<span class="nc" id="L110">        path = path.substring(0, path.length() - 14);</span>
+
+        /*Settinng up a logger, formatter and a filehandler with the given path so it can log errors
+        to the file called &quot;Log.txt&quot;*/
+        FileHandler fileHandler;
+        SimpleFormatter simpleFormatter;
+        TriangleProgram triangleProgram;
+        try {
+<span class="nc" id="L118">            fileHandler = new FileHandler(path + &quot;\\Log.txt&quot;);</span>
+<span class="nc" id="L119">            simpleFormatter = new SimpleFormatter();</span>
+<span class="nc" id="L120">            triangleProgram = new TriangleProgram(simpleFormatter, fileHandler, LOGGER);</span>
+<span class="nc" id="L121">            triangleProgram.inputHandler();</span>
+<span class="nc" id="L122">        } catch (IOException | SecurityException ex) {</span>
+<span class="nc" id="L123">            Logger.getLogger(TriangleProgram.class.getName()).log(Level.SEVERE, null, ex);</span>
+<span class="nc" id="L124">        }</span>
+<span class="nc" id="L125">    }</span>
+
+    /**
+     *
+     */
+    public void inputHandler() {
+<span class="nc" id="L131">        Scanner scan = new Scanner(System.in, &quot;UTF-8&quot;);</span>
+<span class="nc" id="L132">        arr = new double[3];</span>
+<span class="nc bnc" id="L133" title="All 2 branches missed.">        while (isRunning) {</span>
+<span class="nc" id="L134">            System.out.println(&quot;To enter values to you triangle type 1&quot;);</span>
+<span class="nc" id="L135">            System.out.println(&quot;To exit the program type 2&quot;);</span>
+            try {
+<span class="nc" id="L137">                arr[0] = scan.nextInt();</span>
+<span class="nc bnc" id="L138" title="All 2 branches missed.">                if (arr[0] == 1) {</span>
+<span class="nc bnc" id="L139" title="All 2 branches missed.">                    for (int i = 0; i &lt; arr.length;) {</span>
+<span class="nc" id="L140">                        System.out.println(&quot;Please enter a value for your triangle&quot;);</span>
+<span class="nc" id="L141">                        arr[i] = scan.nextDouble();</span>
+<span class="nc bnc" id="L142" title="All 2 branches missed.">                        if (arr[i] &lt; 0) {</span>
+<span class="nc" id="L143">                            System.out.println(&quot;!Invalid value please type a positive number&quot;);</span>
+                        } else {
+<span class="nc" id="L145">                            i++;</span>
+                        }
+                    }
+<span class="nc" id="L148">                    calcTriangle();</span>
+<span class="nc bnc" id="L149" title="All 2 branches missed.">                } else if (arr[0] == 2) {</span>
+<span class="nc" id="L150">                    System.out.println(&quot;Closing the program, goodbye&quot;);</span>
+<span class="nc" id="L151">                    isRunning = false;</span>
+<span class="nc bnc" id="L152" title="All 4 branches missed.">                } else if (arr[0] &gt; 2 || arr[0] &lt; 0) {</span>
+<span class="nc" id="L153">                    System.out.println(&quot;!Invalid value please try again&quot;);</span>
+                }
+<span class="nc" id="L155">            } catch (InputMismatchException ex) {</span>
+<span class="nc" id="L156">                setErrorMessage(&quot;!Invalid error detected. You got a &quot;);</span>
+<span class="nc" id="L157">                System.out.println(getErrorMessage() + ex);</span>
+<span class="nc" id="L158">                LOGGER.log(Level.INFO, &quot;{0}{1}&quot;, new Object[]{getErrorMessage(), ex});</span>
+<span class="nc" id="L159">                System.out.println(&quot;Please try again&quot;);</span>
+<span class="nc" id="L160">                scan = new Scanner(System.in, &quot;UTF-8&quot;);</span>
+                try {
+<span class="nc" id="L162">                    Thread.sleep(500);</span>
+<span class="nc" id="L163">                } catch (InterruptedException exc) {</span>
+<span class="nc" id="L164">                    LOGGER.log(Level.INFO, &quot;{0}{1}&quot;, new Object[]{getErrorMessage(), exc});</span>
+<span class="nc" id="L165">                    isRunning = false;</span>
+<span class="nc" id="L166">                }</span>
+<span class="nc" id="L167">            }</span>
+        }
+<span class="nc" id="L169">    }</span>
+    public void calcTriangle() {
+<span class="fc bfc" id="L171" title="All 4 branches covered.">        if (arr[0] == arr[1] &amp;&amp; arr[0] == arr[2]) {</span>
+<span class="fc" id="L172">            triangle = &quot;equilateral triangle&quot;;</span>
+<span class="pc bpc" id="L173" title="2 of 6 branches missed.">        } else if (arr[0] == arr[1] || arr[0] == arr[2] || arr[1] == arr[2]) {</span>
+<span class="fc" id="L174">            triangle = &quot;isosceles triangle&quot;;</span>
+        } else {
+<span class="fc" id="L176">            triangle = &quot;scalene triangle&quot;;</span>
+        }
+<span class="fc" id="L178">        System.out.println(&quot;--&gt; Your triangle is: &quot; + triangle + &quot; with the sides; &quot; + arr[0] + &quot;, &quot; + arr[1] + &quot;, &quot; + arr[2]);</span>
+<span class="fc" id="L179">        arr[0] = 0;</span>
+<span class="fc" id="L180">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>
