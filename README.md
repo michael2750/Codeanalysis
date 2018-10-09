@@ -38,4 +38,7 @@ We have chosen all the checks above as some of the errors we got in our pmd-repo
 
 - [Netbeans profiler (screenshot)](https://github.com/michael2750/Codeanalysis/blob/master/NetbeansProfilerResults.PNG)
 
+![](https://github.com/michael2750/Codeanalysis/blob/master/Bottleneck.PNG)
+
+The lib call wich took the longest was: org.netbeans.lib.profiler.server.ProfilerServer.activate(String, int, int, int). This is for our logger function in inputhandler() which catches an exception and logs it. This method (if an InputMismatchException appears) makes a thread.sleep wich sleeps before logging the error message.
 
