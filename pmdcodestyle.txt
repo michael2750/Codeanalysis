@@ -1,0 +1,27 @@
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:34:	Parameter 'arr' is not assigned and could be declared final
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:50:	Parameter 'triangle' is not assigned and could be declared final
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:66:	Parameter 'errorMessage' is not assigned and could be declared final
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:70:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:71:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:76:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:77:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:78:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:79:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:80:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:96:	Parameter 'fileHandler' is not assigned and could be declared final
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:96:	Parameter 'logger' is not assigned and could be declared final
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:96:	Parameter 'simpleFor' is not assigned and could be declared final
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:107:	Parameter 'args' is not assigned and could be declared final
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:19:	Avoid variables with short names like tp
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:21:	Avoid unnecessary constructors - the compiler will generate these for you
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:39:	Local variable 'str' could be declared final
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:52:	Local variable 'str' could be declared final
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:65:	Local variable 'str' could be declared final
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:66:	Local variable 'textString' could be declared final
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:67:	Local variable 'text' could be declared final
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:78:	Linguistics Antipattern - The getter 'getScaleneTriangle' should not return void linguistically
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:80:	Local variable 'str' could be declared final
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:91:	Linguistics Antipattern - The getter 'getEquilateralTriangle' should not return void linguistically
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:93:	Local variable 'str' could be declared final
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:104:	Linguistics Antipattern - The getter 'getIsoscelesTriangle' should not return void linguistically
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:106:	Local variable 'str' could be declared final

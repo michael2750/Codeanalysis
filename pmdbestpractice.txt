@@ -1,0 +1,24 @@
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:27:	Returning 'arr' may expose an internal array.
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:34:	Consider using varargs for methods or constructors which take an array the last parameter.
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:34:	The user-supplied array 'arr' is stored directly.
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:134:	System.out.println is used
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:135:	System.out.println is used
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:140:	System.out.println is used
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:143:	System.out.println is used
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:150:	System.out.println is used
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:153:	System.out.println is used
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:157:	System.out.println is used
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:159:	System.out.println is used
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:178:	System.out.println is used
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:11:	Avoid unused imports such as 'org.junit.Assert'
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:38:	System.out.println is used
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:46:	JUnit assertions should include a message
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:51:	System.out.println is used
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:64:	System.out.println is used
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:74:	JUnit assertions should include a message
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:79:	System.out.println is used
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:87:	JUnit assertions should include a message
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:92:	System.out.println is used
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:100:	JUnit assertions should include a message
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:105:	System.out.println is used
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:113:	JUnit assertions should include a message

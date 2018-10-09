@@ -1,0 +1,16 @@
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:20:	The class 'TriangleProgram' is suspected to be a Data Class (WOC=27.273%, NOPA=1, NOAM=6, WMC=26)
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:109:	Potential violation of Law of Demeter (method chain calls)
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:109:	Potential violation of Law of Demeter (method chain calls)
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:109:	Potential violation of Law of Demeter (method chain calls)
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:109:	Potential violation of Law of Demeter (method chain calls)
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:109:	Potential violation of Law of Demeter (method chain calls)
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:110:	Potential violation of Law of Demeter (object not created locally)
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:110:	Potential violation of Law of Demeter (object not created locally)
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:123:	Potential violation of Law of Demeter (method chain calls)
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:123:	Potential violation of Law of Demeter (method chain calls)
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:123:	Potential violation of Law of Demeter (method chain calls)
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:130:	The method 'inputHandler()' has a cyclomatic complexity of 10.
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:178:	Potential violation of Law of Demeter (method chain calls)
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:178:	Potential violation of Law of Demeter (method chain calls)
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:178:	Potential violation of Law of Demeter (method chain calls)
+LoosePackageCoupling	-	No packages or classes specified

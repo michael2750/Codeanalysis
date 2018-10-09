@@ -1,0 +1,26 @@
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:76:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:78:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:79:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:109:	Found 'DD'-anomaly for variable 'path' (lines '109'-'110').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:131:	Found 'DU'-anomaly for variable 'scan' (lines '131'-'169').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:138:	Avoid using Literals in Conditional Statements
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:149:	Avoid using Literals in Conditional Statements
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:160:	Found 'DU'-anomaly for variable 'scan' (lines '160'-'169').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:40:	Found 'DD'-anomaly for variable 'arr' (lines '40'-'41').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:41:	Found 'DD'-anomaly for variable 'arr' (lines '41'-'42').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:42:	Found 'DD'-anomaly for variable 'arr' (lines '42'-'43').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:53:	Found 'DD'-anomaly for variable 'arr' (lines '53'-'54').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:54:	Found 'DD'-anomaly for variable 'arr' (lines '54'-'55').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:55:	Found 'DD'-anomaly for variable 'arr' (lines '55'-'56').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:68:	Found 'DD'-anomaly for variable 'arr' (lines '68'-'69').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:69:	Found 'DD'-anomaly for variable 'arr' (lines '69'-'70').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:70:	Found 'DD'-anomaly for variable 'arr' (lines '70'-'71').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:81:	Found 'DD'-anomaly for variable 'arr' (lines '81'-'82').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:82:	Found 'DD'-anomaly for variable 'arr' (lines '82'-'83').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:83:	Found 'DD'-anomaly for variable 'arr' (lines '83'-'84').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:94:	Found 'DD'-anomaly for variable 'arr' (lines '94'-'95').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:95:	Found 'DD'-anomaly for variable 'arr' (lines '95'-'96').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:96:	Found 'DD'-anomaly for variable 'arr' (lines '96'-'97').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:107:	Found 'DD'-anomaly for variable 'arr' (lines '107'-'108').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:108:	Found 'DD'-anomaly for variable 'arr' (lines '108'-'109').
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\test\triangleprogram\TriangleProgramTest.java:109:	Found 'DD'-anomaly for variable 'arr' (lines '109'-'110').

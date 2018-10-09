@@ -1,0 +1,3 @@
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:158:	Avoid instantiating new objects inside loops
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:160:	Avoid instantiating new objects inside loops
+C:\Users\micha\Desktop\skolearbejde\soft\SecondSem\UFO\TriangleProgram\src\triangleprogram\TriangleProgram.java:164:	Avoid instantiating new objects inside loops
