@@ -25,3 +25,13 @@ We couldnt figure out how to run pmd with a specific metric, but we would like s
 - [Design](https://github.com/michael2750/Codeanalysis/blob/master/pmdresults/pmddesign.txt)
 
   (7) java-coupling/CouplingBetweenObjects
+  
+  (8) java-design/FinalFieldCouldBeStatic
+  
+  (9) java-coupling/LawOfDemeter
+  
+  (10) java-coupling/ExcessiveImports
+  
+We have chosen all the checks above as some of the errors we got in our pmd-report and some checks for the use of general mistakes when we create a program.
+
+### 2.
